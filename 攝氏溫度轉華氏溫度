@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>攝氏溫度轉華氏溫度</title>
+    <script>
+    function CtoF(tempeture){
+      document.writeln("<h1>攝氏溫度"+tempeture+"度</h1>");
+      tempeture= tempeture* 9/5 +32;
+      document.writeln("<h1>華氏溫度"+tempeture+"度</h1>");
+    }
+    tempeture =window.prompt("輸入攝氏溫度"); 
+    CtoF(tempeture);
+    </script>
+  </head>
+</html>
